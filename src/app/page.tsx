@@ -11,7 +11,10 @@ export default function Home() {
           <GlobalNav />
         </div>
       </div>
-      <div className="flex mt-12 justify-center">
+      <div className="flex flex-col mt-20 justify-center">
+        <h1 className="mb-12 text-4xl text-center text-red-400">
+          Easily Get Commodity Insights Data
+        </h1>
         <Entertainment />
       </div>
     </div>
